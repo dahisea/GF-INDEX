@@ -10,6 +10,12 @@
   status = 200
   force = true
 
+  [[redirects]]
+  from = "/ads.txt"
+  to = "https://gfork.dahi.icu/ads.txt"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/404"
   to = "https://gfork.dahi.icu/404"
