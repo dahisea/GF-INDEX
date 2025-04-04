@@ -1,5 +1,11 @@
 
 [[redirects]]
+  from = "/zh-CN"
+  to = "https://gfork.dahi.icu/"
+  status = 307
+  force = true
+
+[[redirects]]
   from = "/scripts/*"
   to = "https://gfork.dahi.icu/scripts/:splat"
   status = 200
@@ -30,12 +36,6 @@
   from = "/"
   to = "https://dahisea.github.io/GF-WWW/"
   status = 200
-  force = true
-
-[[redirects]]
-  from = "/zh-CN"
-  to = "https://gfork.dahi.icu/"
-  status = 307
   force = true
 
   [[redirects]]
