@@ -34,6 +34,12 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/zh-CN"
+  to = "https://gfork.dahi.icu/"
+  status = 307
+  force = true
+
   [[redirects]]
   from = "/ads.txt"
   to = "https://gfork.dahi.icu/ads.txt"
