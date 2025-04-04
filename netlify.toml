@@ -1,3 +1,7 @@
+[[redirects]]
+  from = "/"
+  to = "https://gfork.dahi.icu/"
+  status = 200
 
 [[redirects]]
   from = "/zh-CN"
@@ -31,12 +35,6 @@
   from = "/zh-CN/*"
   to = "/zh-hans/:splat"
   status = 307
-
-  [[redirects]]
-  from = "/"
-  to = "https://gfork.dahi.icu/"
-  status = 200
-  force = true
 
   [[redirects]]
   from = "/ads.txt"
