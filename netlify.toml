@@ -1,3 +1,9 @@
+
+[[redirects]]
+  from = "/scripts/*"
+  to = "https://gfork.dahi.icu/scripts/:splat"
+  status = 200
+
 [[redirects]]
   from = "/zh-hans/scripts/*"
   to = "https://gfork.dahi.icu/zh-hans/scripts/:splat"
