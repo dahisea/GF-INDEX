@@ -2,7 +2,7 @@
 [[redirects]]
   from = "/zh-CN"
   to = "https://gfork.dahi.icu/"
-  status = 307
+  status = 200
   force = true
 
 [[redirects]]
