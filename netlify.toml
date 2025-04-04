@@ -46,8 +46,8 @@
 
 [[redirects]]
   from = "/404"
-  to = "https://gfork.dahi.icu/404"
-  status = 301
+  to = "https://dahisea.github.io/GF-WWW/"
+  status = 200
   force = true
 
 [[redirects]]
@@ -70,5 +70,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://gfork.dahi.icu/404"
-  status = 302
+  to = "https://dahisea.github.io/GF-WWW/"
+  status = 200
