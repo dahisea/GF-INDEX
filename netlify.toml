@@ -42,7 +42,13 @@
   to = "/zh-hans/:splat"
   status = 307
 
-  [[redirects]]
+[[redirects]]
+  from = "/page/applist"
+  to = "https://gfork.dahi.icu/page/applist"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/ads.txt"
   to = "https://gfork.dahi.icu/ads.txt"
   status = 200
