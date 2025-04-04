@@ -20,13 +20,11 @@
   from = "/zh-TW/*"
   to = "/zh-hant/:splat"
   status = 307
-  force = true
 
 [[redirects]]
   from = "/zh-CN/*"
   to = "/zh-hans/:splat"
   status = 307
-  force = true
 
   [[redirects]]
   from = "/"
