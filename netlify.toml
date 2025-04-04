@@ -18,13 +18,13 @@
 
 [[redirects]]
   from = "/zh-hant/scripts/*"
-  to = "https://gfork.dahi.icu/zh-hant/scripts/:splat"
-  status = 200
+  to = "/zh-hans/scripts/:splat"
+  status = 307
   force = true
 
 [[redirects]]
   from = "/zh-TW/*"
-  to = "/zh-hant/:splat"
+  to = "/zh-hans/:splat"
   status = 307
 
 [[redirects]]
