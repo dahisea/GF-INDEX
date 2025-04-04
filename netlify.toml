@@ -10,6 +10,12 @@
   force = true
 
 [[redirects]]
+  from = "/zh-hans"
+  to = "https://gfork.dahi.icu/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/scripts/*"
   to = "https://gfork.dahi.icu/scripts/:splat"
   status = 200
