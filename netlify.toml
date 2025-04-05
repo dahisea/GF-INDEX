@@ -16,6 +16,12 @@
   force = true
 
 [[redirects]]
+  from = "/en/*"
+  to = "https://gfork.dahi.icu/en/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/scripts/*"
   to = "https://gfork.dahi.icu/scripts/:splat"
   status = 200
