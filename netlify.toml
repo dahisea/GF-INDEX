@@ -28,6 +28,12 @@
   force = true
 
 [[redirects]]
+  from = "/rails/*"
+  to = "https://gfork.dahi.icu/rails/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/scripts/*"
   to = "https://gfork.dahi.icu/scripts/:splat"
   status = 200
