@@ -1,46 +1,46 @@
 [[redirects]]
   from = "/"
-  to = "https://gfork.dahi.icu/zh-hans/scripts/by-site/bgm.tv"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/zh-hans/scripts/by-site/bgm.tv"
   status = 200
 
 [[redirects]]
   from = "/zh-CN"
-  to = "https://gfork.dahi.icu/"
+  to = "https://thepage-gfork.zh-hk.eu.org/"
   status = 200
   force = true
 
 [[redirects]]
   from = "/zh-hans"
-  to = "https://gfork.dahi.icu/"
+  to = "https://thepage-gfork.zh-hk.eu.org/"
   status = 200
   force = true
 
 [[redirects]]
   from = "/robots.txt"
-  to = "https://gfork.dahi.icu/robots.txt"
+  to = "https://thepage-gfork.zh-hk.eu.org/robots.txt"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/*"
-  to = "https://gfork.dahi.icu/en/:splat"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/en/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/rails/*"
-  to = "https://gfork.dahi.icu/rails/:splat"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/rails/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/scripts/*"
-  to = "https://gfork.dahi.icu/scripts/:splat"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/scripts/:splat"
   status = 200
 
 [[redirects]]
   from = "/zh-hans/scripts/*"
-  to = "https://gfork.dahi.icu/zh-hans/scripts/:splat"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/zh-hans/scripts/:splat"
   status = 200
   force = true
 
@@ -62,13 +62,13 @@
 
 [[redirects]]
   from = "/page/applist"
-  to = "https://gfork.dahi.icu/page/applist"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/applist"
   status = 200
   force = true
 
 [[redirects]]
   from = "/ads.txt"
-  to = "https://gfork.dahi.icu/ads.txt"
+  to = "https://thepage-gfork.zh-hk.eu.org/ads.txt"
   status = 200
   force = true
 
@@ -80,23 +80,23 @@
 
 [[redirects]]
   from = "/favicon.ico"
-  to = "https://gfork.dahi.icu/favicon.ico"
-  status = 301
+  to = "https://thepage-gfork.zh-hk.eu.org/favicon.ico"
+  status = 302
   force = true
 
 [[redirects]]
   from = "/redirect/to"
-  to = "https://gfork.dahi.icu/redirect/to"
-  status = 301
+  to = "https://thepage-gfork.zh-hk.eu.org/redirect/to"
+  status = 302
   force = true
 
 [[redirects]]
   from = "/redirect/"
-  to = "https://gfork.dahi.icu/redirect/"
-  status = 301
+  to = "https://thepage-gfork.zh-hk.eu.org/redirect/"
+  status = 302
   force = true
 
 [[redirects]]
   from = "/*"
-  to = "https://dahisea.github.io/GF-WWW/"
+  to = "https://thepage-gfork.zh-hk.eu.org/:splat"
   status = 200
