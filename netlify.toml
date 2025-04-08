@@ -5,8 +5,8 @@
 
 [[redirects]]
   from = "/zh-CN"
-  to = "https://thepage-gfork.zh-hk.eu.org/"
-  status = 200
+  to = "/zh-hans"
+  status = 301
   force = true
 
 [[redirects]]
@@ -37,6 +37,7 @@
   from = "/scripts/*"
   to = "https://yx-origin-hh.dahi.edu.eu.org/scripts/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/zh-hans/scripts/*"
@@ -54,11 +55,13 @@
   from = "/zh-TW/*"
   to = "/zh-hans/:splat"
   status = 307
+  force = true
 
 [[redirects]]
   from = "/zh-CN/*"
   to = "/zh-hans/:splat"
   status = 307
+  force = true
 
 [[redirects]]
   from = "/page/applist"
@@ -100,3 +103,4 @@
   from = "/*"
   to = "https://thepage-gfork.zh-hk.eu.org/:splat"
   status = 200
+  force = true
