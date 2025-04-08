@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/"
-  to = "https://yx-origin-hh.dahi.edu.eu.org/zh-hans/scripts/by-site/bgm.tv"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/en/scripts/by-site/bgm.tv"
   status = 200
 
 [[redirects]]
@@ -18,6 +18,12 @@
 [[redirects]]
   from = "/robots.txt"
   to = "https://thepage-gfork.zh-hk.eu.org/robots.txt"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ja/*"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/ja/:splat"
   status = 200
   force = true
 
@@ -40,14 +46,14 @@
   force = true
 
 [[redirects]]
-  from = "/zh-hans/scripts/*"
-  to = "https://yx-origin-hh.dahi.edu.eu.org/zh-hans/scripts/:splat"
+  from = "/zh-hans/*"
+  to = "https://yx-origin-hh.dahi.edu.eu.org/zh-hans/:splat"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/zh-hant/scripts/*"
-  to = "/zh-hans/scripts/:splat"
+  from = "/zh-hant/*"
+  to = "/zh-hans/:splat"
   status = 307
   force = true
 
