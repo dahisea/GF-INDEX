@@ -21,6 +21,18 @@
   force = true
   
 [[redirects]]
+  from = "/ja"
+  to = "https://thepage-gfork.zh-hk.eu.org/ja"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ja/"
+  to = "/ja"
+  status = 301
+  force = true
+  
+[[redirects]]
   from = "/en"
   to = "https://thepage-gfork.zh-hk.eu.org/en"
   status = 200
@@ -46,31 +58,31 @@
 
 [[redirects]]
   from = "/ja/*"
-  to = "https://yx-origin-hh.dahi.edu.eu.org/ja/:splat"
+  to = "http://sh67jx.dahiicu-36a.workers.dev/ja/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/*"
-  to = "https://yx-origin-hh.dahi.edu.eu.org/en/:splat"
+  to = "http://sh67jx.dahiicu-36a.workers.dev/en/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/rails/*"
-  to = "https://yx-origin-hh.dahi.edu.eu.org/rails/:splat"
+  to = "http://sh67jx.dahiicu-36a.workers.dev/rails/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/scripts/*"
-  to = "https://yx-origin-hh.dahi.edu.eu.org/scripts/:splat"
+  to = "http://sh67jx.dahiicu-36a.workers.dev/scripts/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/zh-hans/*"
-  to = "https://yx-origin-hh.dahi.edu.eu.org/zh-hans/:splat"
+  to = "http://sh67jx.dahiicu-36a.workers.dev/zh-hans/:splat"
   status = 200
   force = true
 
