@@ -2,180 +2,134 @@
   from = "/"
   to = "https://thepage-gfork.zh-hk.eu.org/en-raw"
   status = 200
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
-
+  
 [[redirects]]
   from = "/zh-hans/users/sign_in"
   to = "/zh-hans"
   status = 200
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
-
+  
 [[redirects]]
   from = "/zh-hans"
   to = "https://thepage-gfork.zh-hk.eu.org/"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/zh-hans/"
   to = "/zh-hans"
   status = 301
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
-
+  
 [[redirects]]
   from = "/en"
   to = "https://thepage-gfork.zh-hk.eu.org/en"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/en/"
   to = "/en"
   status = 301
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/zh-CN"
   to = "/zh-hans"
   status = 301
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/robots.txt"
   to = "https://thepage-gfork.zh-hk.eu.org/robots.txt"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/ja/*"
   to = "https://yx-origin-hh.dahi.edu.eu.org/ja/:splat"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/en/*"
   to = "https://yx-origin-hh.dahi.edu.eu.org/en/:splat"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/rails/*"
   to = "https://yx-origin-hh.dahi.edu.eu.org/rails/:splat"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/scripts/*"
   to = "https://yx-origin-hh.dahi.edu.eu.org/scripts/:splat"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/zh-hans/*"
   to = "https://yx-origin-hh.dahi.edu.eu.org/zh-hans/:splat"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/zh-hant/*"
   to = "/zh-hans/:splat"
   status = 307
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/zh-TW/*"
   to = "/zh-hans/:splat"
   status = 307
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/zh-CN/*"
   to = "/zh-hans/:splat"
   status = 307
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/page/applist"
   to = "https://thepage-gfork.zh-hk.eu.org/page/applist"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/ads.txt"
   to = "https://thepage-gfork.zh-hk.eu.org/ads.txt"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/404"
   to = "https://dahisea.github.io/GF-WWW/"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/favicon.ico"
   to = "https://thepage-gfork.zh-hk.eu.org/favicon.ico"
   status = 302
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/redirect/to"
   to = "https://thepage-gfork.zh-hk.eu.org/redirect/to"
   status = 302
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/redirect/"
   to = "https://thepage-gfork.zh-hk.eu.org/redirect/"
   status = 302
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
 
 [[redirects]]
   from = "/*"
   to = "https://thepage-gfork.zh-hk.eu.org/:splat"
   status = 200
   force = true
-  [redirects.headers]
-    Cache-Control = "public, max-age=172800"
