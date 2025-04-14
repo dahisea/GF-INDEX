@@ -139,7 +139,13 @@
   to = "https://thepage-gfork.zh-hk.eu.org/redirect/"
   status = 302
   force = true
-
+  
+[[redirects]]
+  from = "/*.json"
+  to = "https://api.greasyfork.org.cn/:splat.json"
+  status = 308
+  force = true
+  
 [[redirects]]
   from = "/*"
   to = "https://thepage-gfork.zh-hk.eu.org/:splat"
