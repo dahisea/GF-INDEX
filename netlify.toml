@@ -111,6 +111,18 @@
   force = true
 
 [[redirects]]
+  from = "/page/tos"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/tos"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*/help/installing-user-scripts"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/installing-user-scripts"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/ads.txt"
   to = "https://thepage-gfork.zh-hk.eu.org/ads.txt"
   status = 200
