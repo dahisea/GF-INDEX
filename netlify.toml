@@ -58,31 +58,31 @@
 
 [[redirects]]
   from = "/ja/*"
-  to = "https://sh67jx.dahiicu-36a.workers.dev/ja/:splat"
+  to = "https://xdrcgfn.dahi.edu.eu.org/ja/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/*"
-  to = "https://sh67jx.dahiicu-36a.workers.dev/en/:splat"
+  to = "https://xdrcgfn.dahi.edu.eu.org/en/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/rails/*"
-  to = "https://sh67jx.dahiicu-36a.workers.dev/rails/:splat"
+  to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/scripts/*"
-  to = "https://sh67jx.dahiicu-36a.workers.dev/scripts/:splat"
+  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/zh-hans/*"
-  to = "https://sh67jx.dahiicu-36a.workers.dev/zh-hans/:splat"
+  to = "https://xdrcgfn.dahi.edu.eu.org/zh-hans/:splat"
   status = 200
   force = true
 
