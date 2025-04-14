@@ -4,12 +4,6 @@
   status = 200
   
 [[redirects]]
-  from = "/**/*.json"
-  to = "https://api.greasyfork.org.cn/:splat.json"
-  status = 308
-  force = true
-  
-[[redirects]]
   from = "/zh-hans/users/sign_in"
   to = "/zh-hans"
   status = 200
