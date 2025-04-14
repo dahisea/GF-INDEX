@@ -55,6 +55,42 @@
   to = "https://thepage-gfork.zh-hk.eu.org/robots.txt"
   status = 200
   force = true
+  
+[[redirects]]
+  from = "/ads.txt"
+  to = "https://thepage-gfork.zh-hk.eu.org/ads.txt"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/404"
+  to = "https://dahisea.github.io/GF-WWW/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "https://thepage-gfork.zh-hk.eu.org/favicon.ico"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/page/applist"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/applist"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/page/tos"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/tos"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*/help/installing-user-scripts"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/installing-user-scripts"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/ja/*"
@@ -102,42 +138,6 @@
   from = "/zh-CN/*"
   to = "/zh-hans/:splat"
   status = 307
-  force = true
-
-[[redirects]]
-  from = "/page/applist"
-  to = "https://thepage-gfork.zh-hk.eu.org/page/applist"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/page/tos"
-  to = "https://thepage-gfork.zh-hk.eu.org/page/tos"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/*/help/installing-user-scripts"
-  to = "https://thepage-gfork.zh-hk.eu.org/page/installing-user-scripts"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/ads.txt"
-  to = "https://thepage-gfork.zh-hk.eu.org/ads.txt"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/404"
-  to = "https://dahisea.github.io/GF-WWW/"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/favicon.ico"
-  to = "https://thepage-gfork.zh-hk.eu.org/favicon.ico"
-  status = 302
   force = true
 
 [[redirects]]
