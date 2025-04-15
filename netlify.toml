@@ -103,6 +103,24 @@
   to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
   status = 200
   force = true
+  
+[[redirects]]
+  from = "/ja/scripts"
+  to = "https://xdrcgfn.dahi.edu.eu.org/ja/scripts"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/en/scripts"
+  to = "https://xdrcgfn.dahi.edu.eu.org/en/scripts"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/zh-hans/scripts"
+  to = "https://xdrcgfn.dahi.edu.eu.org/zh-hans/scripts"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/zh-hans/scripts/by-site/*"
