@@ -93,18 +93,6 @@
   force = true
 
 [[redirects]]
-  from = "/ja/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/ja/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/en/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/en/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/rails/*"
   to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
   status = 200
@@ -117,8 +105,38 @@
   force = true
 
 [[redirects]]
+  from = "/ja/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/ja/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/en/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/en/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/zh-hans/*"
   to = "https://xdrcgfn.dahi.edu.eu.org/zh-hans/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ja/*"
+  to = "https://gfork.zh-hk.eu.org/ja/scripts/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/en/scripts/*"
+  to = "https://gfork.zh-hk.eu.org/en/scripts/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/zh-hans/scripts/*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/:splat"
   status = 200
   force = true
 
