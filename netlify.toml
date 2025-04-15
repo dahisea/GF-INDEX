@@ -34,7 +34,13 @@
   status = 302
   
 [[redirects]]
-  from = "/*moderator_actions*"
+  from = "/*moderator_actions"
+  to = "/zh-hans"
+  status = 302
+  force = true
+  
+[[redirects]]
+  from = "/moderator_actions*"
   to = "/zh-hans"
   status = 302
   force = true
