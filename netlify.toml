@@ -4,9 +4,40 @@
   status = 200
   
 [[redirects]]
-  from = "/zh-hans/users/sign_in"
+  from = "/zh-hans/discussions*"
   to = "/zh-hans"
-  status = 200
+  status = 302
+  
+[[redirects]]
+  from = "/en/discussions*"
+  to = "/zh-hans"
+  status = 302
+  
+[[redirects]]
+  from = "/ja/discussions*"
+  to = "/zh-hans"
+  status = 302
+  
+[[redirects]]
+  from = "/zh-hans/users*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/users:splat"
+  status = 302
+  
+[[redirects]]
+  from = "/en/users*"
+  to = "https://gfork.zh-hk.eu.org/zh-hans/users:splat"
+  status = 302
+  
+[[redirects]]
+  from = "/ja/users*"
+  to = "https://gfork.zh-hk.eu.org/zh-hans/users:splat"
+  status = 302
+  
+[[redirects]]
+  from = "/*moderator_actions*"
+  to = "/zh-hans"
+  status = 302
+  force = true
   
 [[redirects]]
   from = "/zh-hans"
