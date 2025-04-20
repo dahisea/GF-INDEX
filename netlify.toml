@@ -5,6 +5,12 @@
   force = true
 
 [[redirects]]
+  from = "/zh-hans/scripts"
+  to = "https://thepage-gfork.zh-hk.eu.org/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "https://home.greasyfork.org.cn/:splat"
   status = 308
