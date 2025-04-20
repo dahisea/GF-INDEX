@@ -2,6 +2,7 @@
   from = "/"
   to = "https://thepage-gfork.zh-hk.eu.org/nginxi"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
