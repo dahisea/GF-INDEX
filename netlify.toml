@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "/"
+  to = "https://thepage-gfork.zh-hk.eu.org/nginxi"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "https://home.greasyfork.org.cn/:splat"
   status = 308
