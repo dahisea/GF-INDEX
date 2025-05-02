@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/"
+  from = "/zh-hans"
   to = "https://thepage-gfork.zh-hk.eu.org/nginxi"
   status = 200
   force = true
@@ -42,5 +42,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://home.greasyfork.org.cn/:splat"
-  status = 308
+  to = "https://apexredirect.dahiicu-36a.workers.dev/:splat"
+  status = 200
