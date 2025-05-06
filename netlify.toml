@@ -39,6 +39,12 @@
   to = "https://home.greasyfork.org.cn/redirect/"
   status = 302
   force = true
+  
+[[redirects]]
+  from = "/scripts/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
