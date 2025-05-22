@@ -1,9 +1,103 @@
 [[redirects]]
+  from = "/"
+  to = "/zh-hans"
+  status = 308
+  
+[[redirects]]
+  from = "/s"
+  to = "https://thepage-gfork.zh-hk.eu.org/searchw"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/p/1E3F8A9F-DDC6-4D76-B101-5683AA13E349"
+  to = "https://dgkkhxhkj.dahi.edu.eu.org/zh-CN/scripts.json"
+  status = 200
+  
+[[redirects]]
+  from = "/zh-hans/discussions*"
+  to = "/zh-hans"
+  status = 308
+  
+[[redirects]]
+  from = "/en/discussions*"
+  to = "/zh-hans"
+  status = 308
+  
+[[redirects]]
+  from = "/ja/discussions*"
+  to = "/zh-hans"
+  status = 308
+  
+[[redirects]]
+  from = "/zh-hans/users*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/users/:splat"
+  status = 307
+  
+[[redirects]]
+  from = "/en/users*"
+  to = "https://gfork.zh-hk.eu.org/en/users/:splat"
+  status = 307
+  
+[[redirects]]
+  from = "/ja/users*"
+  to = "https://gfork.zh-hk.eu.org/ja/users/:splat"
+  status = 307
+  
+[[redirects]]
+  from = "/*/moderator_actions*"
+  to = "/zh-hans"
+  status = 308
+  force = true
+  
+[[redirects]]
   from = "/zh-hans"
-  to = "https://thepage-gfork.zh-hk.eu.org/nginxi"
+  to = "https://thepage-gfork.zh-hk.eu.org/hans"
   status = 200
   force = true
 
+[[redirects]]
+  from = "/zh-hans/"
+  to = "/zh-hans"
+  status = 308
+  force = true
+  
+[[redirects]]
+  from = "/ja"
+  to = "https://thepage-gfork.zh-hk.eu.org/ja"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ja/"
+  to = "/ja"
+  status = 308
+  force = true
+  
+[[redirects]]
+  from = "/en"
+  to = "https://thepage-gfork.zh-hk.eu.org/en"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/en/"
+  to = "/en"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/zh-CN"
+  to = "/zh-hans"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "https://thepage-gfork.zh-hk.eu.org/rrobots.txt"
+  status = 200
+  force = true
+  
 [[redirects]]
   from = "/ads.txt"
   to = "https://thepage-gfork.zh-hk.eu.org/ads.txt"
@@ -23,9 +117,105 @@
   force = true
 
 [[redirects]]
-  from = "/zh-hans/scripts"
-  to = "https://thepage-gfork.zh-hk.eu.org/hans"
+  from = "/page/applist"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/applist"
   status = 200
+  force = true
+
+[[redirects]]
+  from = "/page/tos"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/tos"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*/help/installing-user-scripts"
+  to = "https://thepage-gfork.zh-hk.eu.org/page/installing-user-scripts"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*/search"
+  to = "https://thepage-gfork.zh-hk.eu.org/search"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*/help"
+  to = "https://thepage-gfork.zh-hk.eu.org/help"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rails/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/rails/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/scripts/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*/scripts"
+  to = "/404"
+  status = 307
+  force = true
+
+[[redirects]]
+  from = "/zh-hans/scripts/by-site/*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/by-site/:splat"
+  status = 308
+  force = true
+  
+[[redirects]]
+  from = "/ja/scripts/*"
+  to = "https://gfork.zh-hk.eu.org/ja/scripts/:splat"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/en/scripts/*"
+  to = "https://gfork.zh-hk.eu.org/en/scripts/:splat"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/zh-hans/scripts/*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/scripts/:splat"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/zh-hant/*"
+  to = "/zh-hans/:splat"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/zh-TW/*"
+  to = "/zh-hans/:splat"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/zh-CN/*"
+  to = "/zh-hans/:splat"
+  status = 308
+  force = true
+  
+[[redirects]]
+  from = "/zh-tw/*"
+  to = "/zh-hans/:splat"
+  status = 308
+  force = true
+
+[[redirects]]
+  from = "/zh-cn/*"
+  to = "/zh-hans/:splat"
+  status = 308
   force = true
 
 [[redirects]]
@@ -41,12 +231,7 @@
   force = true
   
 [[redirects]]
-  from = "/scripts/*"
-  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
+  from = "/*"
+  to = "https://thepage-gfork.zh-hk.eu.org/:splat"
   status = 200
   force = true
-
-[[redirects]]
-  from = "/*"
-  to = "https://apexuctfueg.dahi.edu.eu.org/:splat"
-  status = 200
