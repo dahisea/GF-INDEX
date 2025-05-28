@@ -37,7 +37,7 @@
 [[redirects]]
   from = "/redirect/"
   to = "https://home.greasyfork.org.cn/redirect/"
-  status = 200
+  status = 308
   force = true
   
 [[redirects]]
