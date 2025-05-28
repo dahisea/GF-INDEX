@@ -37,7 +37,7 @@
 [[redirects]]
   from = "/redirect/"
   to = "https://thepage-gfork.zh-hk.eu.org/redirect/"
-  status = 200
+  status = 308
   force = true
   
 [[redirects]]
