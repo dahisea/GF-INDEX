@@ -36,8 +36,8 @@
 
 [[redirects]]
   from = "/redirect/"
-  to = "https://home.greasyfork.org.cn/redirect/"
-  status = 308
+  to = "https://thepage-gfork.zh-hk.eu.org/redirect/"
+  status = 200
   force = true
   
 [[redirects]]
