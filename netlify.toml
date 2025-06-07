@@ -23,12 +23,6 @@
   force = true
 
 [[redirects]]
-  from = "/zh-hans/scripts"
-  to = "https://thepage-gfork.zh-hk.eu.org/hans"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/redirect/to"
   to = "https://thepage-gfork.zh-hk.eu.org/redirect/to"
   status = 200
