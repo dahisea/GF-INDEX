@@ -1,0 +1,46 @@
+[[redirects]]
+  from = "/zh-hans"
+  to = "https://cdn.greasyfork.org.cn/nginxi"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ads.txt"
+  to = "https://cdn.greasyfork.org.cn/ads.txt"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/404"
+  to = "https://cdn.greasyfork.org.cn/404"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "https://cdn.greasyfork.org.cn/favicon.ico"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/redirect/to"
+  to = "https://cdn.greasyfork.org.cn/redirect/to"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/redirect/"
+  to = "https://cdn.greasyfork.org.cn/redirect/"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/scripts/*"
+  to = "https://xdrcgfn.dahi.edu.eu.org/scripts/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://apexuctfueg.dahi.edu.eu.org/:splat"
+  status = 200
