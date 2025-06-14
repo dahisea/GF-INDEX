@@ -5,12 +5,6 @@
   force = true
 
 [[redirects]]
-  from = "/ads.txt"
-  to = "https://cdn.greasyfork.org.cn/ads.txt"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/404"
   to = "https://cdn.greasyfork.org.cn/404"
   status = 200
