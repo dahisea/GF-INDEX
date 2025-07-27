@@ -1,4 +1,10 @@
 [[redirects]]
+  from = "/"
+  to = "https://cdn.greasyfork.org.cn/nginxi"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/zh-hans"
   to = "https://cdn.greasyfork.org.cn/nginxi"
   status = 200
@@ -36,5 +42,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://apexuctfueg.dahi.edu.eu.org/:splat"
+  to = "https://home.greasyfork.org.cn/:splat"
   status = 200
