@@ -43,4 +43,4 @@
 [[redirects]]
   from = "/*"
   to = "https://home.greasyfork.org.cn/:splat"
-  status = 302
+  status = 307
