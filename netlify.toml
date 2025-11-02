@@ -1,40 +1,4 @@
 [[redirects]]
-  from = "/"
-  to = "https://cdn.greasyfork.org.cn/nginxi"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/zh-hans"
-  to = "https://cdn.greasyfork.org.cn/nginxi"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/404"
-  to = "https://cdn.greasyfork.org.cn/404"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/favicon.ico"
-  to = "https://cdn.greasyfork.org.cn/favicon.ico"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/redirect/to"
-  to = "https://cdn.greasyfork.org.cn/redirect/to"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/redirect/"
-  to = "https://cdn.greasyfork.org.cn/redirect/"
-  status = 200
-  force = true
-  
-[[redirects]]
   from = "/scripts/*"
   to = "https://datan-owhdhhenduxdbidb.zh-tw.eu.org/scripts/:splat"
   status = 200
@@ -42,5 +6,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://home.greasyfork.org.cn/:splat"
+  to = "https://gfork.zh-tw.eu.org/:splat"
   status = 307
