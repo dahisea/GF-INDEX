@@ -3,7 +3,18 @@
   to = "https://datan-owhdhhenduxdbidb.zh-tw.eu.org/scripts/:splat"
   status = 200
   force = true
-
+[[redirects]]
+  from = "/en/*"
+  to = "https://gfork.zh-hk.eu.org/en/:splat"
+  status = 307
+[[redirects]]
+  from = "/ja/*"
+  to = "https://gfork.zh-hk.eu.org/ja/:splat"
+  status = 307
+[[redirects]]
+  from = "/zh-hans/*"
+  to = "https://gfork.zh-tw.eu.org/zh-hans/:splat"
+  status = 307
 [[redirects]]
   from = "/*"
   to = "https://gfork.zh-tw.eu.org/:splat"
